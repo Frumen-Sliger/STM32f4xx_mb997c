@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Исходные файлы"
+                   projectFiles="true">
+      <logicalFolder name="nb2" displayName="nb2" projectFiles="true">
+        <logicalFolder name="Drivers" displayName="Drivers" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Device" displayName="Device" projectFiles="true">
+              <logicalFolder name="ST" displayName="ST" projectFiles="true">
+                <logicalFolder name="STM32F4xx" displayName="STM32F4xx" projectFiles="true">
+                  <logicalFolder name="Source" displayName="Source" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="STM32F4xx_HAL_Driver"
+                         displayName="STM32F4xx_HAL_Driver"
+                         projectFiles="true">
+            <logicalFolder name="Src" displayName="Src" projectFiles="true">
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c</itemPath>
+              <itemPath>nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="EWARM" displayName="EWARM" projectFiles="true">
+          <itemPath>nb2/EWARM/Project.eww</itemPath>
+          <itemPath>nb2/EWARM/nb2.ewd</itemPath>
+          <itemPath>nb2/EWARM/nb2.ewp</itemPath>
+          <itemPath>nb2/EWARM/startup_stm32f407xx.s</itemPath>
+          <itemPath>nb2/EWARM/stm32f407xx_flash.icf</itemPath>
+          <itemPath>nb2/EWARM/stm32f407xx_sram.icf</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Middlewares" displayName="Middlewares" projectFiles="true">
+          <logicalFolder name="ST" displayName="ST" projectFiles="true">
+            <logicalFolder name="STM32_USB_Host_Library"
+                           displayName="STM32_USB_Host_Library"
+                           projectFiles="true">
+              <logicalFolder name="Class" displayName="Class" projectFiles="true">
+                <logicalFolder name="CDC" displayName="CDC" projectFiles="true">
+                  <logicalFolder name="Src" displayName="Src" projectFiles="true">
+                    <itemPath>nb2/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="Core" displayName="Core" projectFiles="true">
+                <logicalFolder name="Src" displayName="Src" projectFiles="true">
+                  <itemPath>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c</itemPath>
+                  <itemPath>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c</itemPath>
+                  <itemPath>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c</itemPath>
+                  <itemPath>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="Src" displayName="Src" projectFiles="true">
+          <itemPath>nb2/Src/main.c</itemPath>
+          <itemPath>nb2/Src/stm32f4xx_hal_msp.c</itemPath>
+          <itemPath>nb2/Src/stm32f4xx_it.c</itemPath>
+          <itemPath>nb2/Src/system_stm32f4xx.c</itemPath>
+          <itemPath>nb2/Src/usb_host.c</itemPath>
+          <itemPath>nb2/Src/usbh_conf.c</itemPath>
+          <itemPath>nb2/Src/usbh_platform.c</itemPath>
+        </logicalFolder>
+        <itemPath>nb2/nb2.ioc</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Файлы заголовков"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Файлы ресурсов"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Файлы тестов"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>nbproject</Elem>
+    <Elem>nb2</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>nb2/Drivers/STM32F4xx_HAL_Driver/Inc</pElem>
+            <pElem>nb2/Inc</pElem>
+            <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc</pElem>
+            <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/Core/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Core_A/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Device/ST/STM32F4xx/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Include</pElem>
+            <pElem>nb2/Drivers/STM32F4xx_HAL_Driver/Inc</pElem>
+            <pElem>nb2/Inc</pElem>
+            <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc</pElem>
+            <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/Core/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Core_A/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Device/ST/STM32F4xx/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/NN/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/RTOS2/Include</pElem>
+            <pElem>nb2/Drivers/STM32F4xx_HAL_Driver/Inc</pElem>
+            <pElem>nb2/Inc</pElem>
+            <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc</pElem>
+            <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
+            <pElem>nb2/Inc</pElem>
+          </incDir>
+          <commandLine>-mthumb -mcpu=cortex-m3 -mfloat-abi=soft -Wall --specs=nosys.specs</commandLine>
+          <preprocessorList>
+            <Elem>STM32F407xx</Elem>
+            <Elem>STM32F4DISCOVERY</Elem>
+            <Elem>STM32F4xx</Elem>
+          </preprocessorList>
+        </cTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c_application_1.elf</output>
+        </linkerTool>
+      </compileType>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/EWARM/Project.eww" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/nb2.ewd" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/nb2.ewp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/startup_stm32f407xx.s" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/stm32f407xx_flash.icf" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/stm32f407xx_sram.icf" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/stm32f4xx_hal_msp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/stm32f4xx_it.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/system_stm32f4xx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/usb_host.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/usbh_conf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/usbh_platform.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/nb2.ioc" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/EWARM/Project.eww" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/nb2.ewd" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/nb2.ewp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/startup_stm32f407xx.s" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/stm32f407xx_flash.icf" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/EWARM/stm32f407xx_sram.icf" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nb2/Src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/stm32f4xx_hal_msp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/stm32f4xx_it.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/system_stm32f4xx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/usb_host.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/usbh_conf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/Src/usbh_platform.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="nb2/nb2.ioc" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
