@@ -10,6 +10,7 @@
             <file>file:/home/max/NetBeansProjects/C_Application_1/nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c</file>
             <file>file:/home/max/NetBeansProjects/C_Application_1/nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h</file>
             <file>file:/home/max/NetBeansProjects/C_Application_1/nb2/Src/main.c</file>
+            <file>file:/home/max/NetBeansProjects/C_Application_1/nb2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h</file>
         </group>
     </open-files>
 </project-private>

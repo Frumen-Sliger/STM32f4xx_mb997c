@@ -1,5 +1,6 @@
-build/Debug/GNU-Linux/nb2/Src/main.o: nb2/Src/main.c nb2/Inc/main.h \
- nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+build/Debug/GNU-Linux/_ext/aa7a3a07/gpio.o: \
+ /home/max/NetBeansProjects/C_Application_1/nb2/Src/gpio.c nb2/Inc/gpio.h \
+ nb2/Inc/main.h nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  nb2/Inc/stm32f4xx_hal_conf.h \
  nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
  nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
@@ -30,9 +31,9 @@ build/Debug/GNU-Linux/nb2/Src/main.o: nb2/Src/main.c nb2/Inc/main.h \
  nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
  nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
- nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h nb2/Inc/i2c.h \
- nb2/Inc/main.h nb2/Inc/i2s.h nb2/Inc/spi.h nb2/Inc/usb_host.h \
- nb2/Inc/gpio.h
+ nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
+
+nb2/Inc/gpio.h:
 
 nb2/Inc/main.h:
 
@@ -99,15 +100,3 @@ nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:
 nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h:
 
 nb2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
-
-nb2/Inc/i2c.h:
-
-nb2/Inc/main.h:
-
-nb2/Inc/i2s.h:
-
-nb2/Inc/spi.h:
-
-nb2/Inc/usb_host.h:
-
-nb2/Inc/gpio.h:

@@ -142,9 +142,14 @@
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="Src" displayName="Src" projectFiles="true">
+          <itemPath>/home/max/NetBeansProjects/C_Application_1/nb2/Src/gpio.c</itemPath>
+          <itemPath>/home/max/NetBeansProjects/C_Application_1/nb2/Src/i2c.c</itemPath>
+          <itemPath>/home/max/NetBeansProjects/C_Application_1/nb2/Src/i2s.c</itemPath>
           <itemPath>nb2/Src/main.c</itemPath>
+          <itemPath>/home/max/NetBeansProjects/C_Application_1/nb2/Src/spi.c</itemPath>
           <itemPath>nb2/Src/stm32f4xx_hal_msp.c</itemPath>
           <itemPath>nb2/Src/stm32f4xx_it.c</itemPath>
+          <itemPath>/home/max/NetBeansProjects/C_Application_1/nb2/Src/syscalls.c</itemPath>
           <itemPath>nb2/Src/system_stm32f4xx.c</itemPath>
           <itemPath>nb2/Src/usb_host.c</itemPath>
           <itemPath>nb2/Src/usbh_conf.c</itemPath>
@@ -217,6 +222,19 @@
             <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc</pElem>
             <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
             <pElem>nb2/Inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/Core/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Core_A/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/JTest/inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/Common/inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/RefLibs/inc</pElem>
+            <pElem>nb2/Drivers/CMSIS/DSP/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Device/ST/STM32F4xx/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/NN/Include</pElem>
+            <pElem>nb2/Drivers/CMSIS/RTOS2/Include</pElem>
+            <pElem>nb2/Drivers/STM32F4xx_HAL_Driver/Inc</pElem>
+            <pElem>nb2/Inc</pElem>
+            <pElem>nb2/Middlewares/ST/STM32_USB_Host_Library/Core/Inc</pElem>
           </incDir>
           <commandLine>-mthumb -mcpu=cortex-m3 -mfloat-abi=soft -Wall --specs=nosys.specs</commandLine>
           <preprocessorList>
@@ -227,8 +245,34 @@
         </cTool>
         <linkerTool>
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c_application_1.elf</output>
+          <commandLine>-T../C_Application_1/nb2/STM32F407VGTx_FLASH.ld</commandLine>
         </linkerTool>
       </compileType>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/i2s.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/syscalls.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
             ex="false"
             tool="0"
@@ -738,6 +782,31 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/i2s.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/max/NetBeansProjects/C_Application_1/nb2/Src/syscalls.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
       <item path="nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
             ex="false"
             tool="0"

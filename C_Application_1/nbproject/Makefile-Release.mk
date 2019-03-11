@@ -35,6 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/_ext/aa7a3a07/gpio.o \
+	${OBJECTDIR}/_ext/aa7a3a07/i2c.o \
+	${OBJECTDIR}/_ext/aa7a3a07/i2s.o \
+	${OBJECTDIR}/_ext/aa7a3a07/spi.o \
+	${OBJECTDIR}/_ext/aa7a3a07/syscalls.o \
 	${OBJECTDIR}/nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o \
 	${OBJECTDIR}/nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o \
 	${OBJECTDIR}/nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o \
@@ -160,6 +165,31 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c_application_1: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c_application_1 ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/_ext/aa7a3a07/gpio.o: /home/max/NetBeansProjects/C_Application_1/nb2/Src/gpio.c
+	${MKDIR} -p ${OBJECTDIR}/_ext/aa7a3a07
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/aa7a3a07/gpio.o /home/max/NetBeansProjects/C_Application_1/nb2/Src/gpio.c
+
+${OBJECTDIR}/_ext/aa7a3a07/i2c.o: /home/max/NetBeansProjects/C_Application_1/nb2/Src/i2c.c
+	${MKDIR} -p ${OBJECTDIR}/_ext/aa7a3a07
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/aa7a3a07/i2c.o /home/max/NetBeansProjects/C_Application_1/nb2/Src/i2c.c
+
+${OBJECTDIR}/_ext/aa7a3a07/i2s.o: /home/max/NetBeansProjects/C_Application_1/nb2/Src/i2s.c
+	${MKDIR} -p ${OBJECTDIR}/_ext/aa7a3a07
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/aa7a3a07/i2s.o /home/max/NetBeansProjects/C_Application_1/nb2/Src/i2s.c
+
+${OBJECTDIR}/_ext/aa7a3a07/spi.o: /home/max/NetBeansProjects/C_Application_1/nb2/Src/spi.c
+	${MKDIR} -p ${OBJECTDIR}/_ext/aa7a3a07
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/aa7a3a07/spi.o /home/max/NetBeansProjects/C_Application_1/nb2/Src/spi.c
+
+${OBJECTDIR}/_ext/aa7a3a07/syscalls.o: /home/max/NetBeansProjects/C_Application_1/nb2/Src/syscalls.c
+	${MKDIR} -p ${OBJECTDIR}/_ext/aa7a3a07
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/aa7a3a07/syscalls.o /home/max/NetBeansProjects/C_Application_1/nb2/Src/syscalls.c
 
 ${OBJECTDIR}/nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o: nb2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 	${MKDIR} -p ${OBJECTDIR}/nb2/Drivers/STM32F4xx_HAL_Driver/Src

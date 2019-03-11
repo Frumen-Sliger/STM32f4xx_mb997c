@@ -8,5 +8,5 @@
 
 cd 
 cd ~/NetBeansProjects/FIRMWARE/
-"st-flash" write C_Application_1.bin 0x08000000
+"st-flash" erase
 "st-flash" write C_Application_1.bin 0x08000000
